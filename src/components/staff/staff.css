@@ -1,0 +1,24 @@
+.ctner-stf div{
+    color: black;
+    font-size: 40px;
+    font-size: 4vh;
+    text-align: center;
+    padding: 10vh;
+    width: 450px;
+    width: 30vw;
+    background-color: aliceblue;
+    margin-left: 15vh;
+    margin-top: 10vh;
+    background-color: rgb(66, 22, 22);
+    border-radius: 20px;
+}
+.ctner-stf {
+	  display: flex;
+	  flex-wrap: wrap;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+
+  a{
+  text-decoration: none;
+  }
