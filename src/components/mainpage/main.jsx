@@ -9,7 +9,7 @@ function App() {
 
     return (
         <>
-            <Header />
+            <Headerlogin />
             <div className="containerpic">
                 <img className="mainpic" src="src\assets\mainpic.jpg" />
                 <div className="centered">FOR RES</div>

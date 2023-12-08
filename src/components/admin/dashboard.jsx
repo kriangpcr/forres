@@ -3,7 +3,6 @@ import './dashboard.css'
 import React from "react";
 import { Chart as ChartJS, defaults } from "chart.js/auto";
 import { Bar, Doughnut, Line } from "react-chartjs-2";
-import revenueData from "./data/revenueData.json";
 import sourceData from "./data/sourceData.json";
 import courseData from "./data/courseData.json";
 
