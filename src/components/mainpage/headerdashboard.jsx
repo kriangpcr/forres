@@ -12,16 +12,14 @@ function App() {
 
     return (
         <>
-            <div className="header">
-                <div style={{marginLeft:"15%"}} className="logo-container">
-                    <a href="/"><img
-                        src="../src/assets/logo.png"
-                        className="logo"
-                    /></a>
+            
+            <div class="container">
+                <a className="" href="/"><img className="icon" src="../src/assets/logo.png" /></a>
+                <div class="mybutton2">
 
+                    
+                    <a className="name" href="/">DASHBOARD</a>
                 </div>
-                <button className="user">DASHBOARD </button>
-                
             </div>
         </>
     );

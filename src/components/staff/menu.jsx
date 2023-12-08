@@ -9,6 +9,7 @@ export default function App() {
             <div className='showdetail'>
                 <img style={{ width: "150px", borderRadius: "20px" }} src="../src/assets/white.png" alt="" />
                 <div className='textdetail'>
+                    <p></p><br /><br />
                     <p>Current menu  :  PAN SEARED SEA BASS</p>
                     <p>Chef  :  Pachara Phetshee</p>
                     <p>Kitchen  :  Station 2</p>

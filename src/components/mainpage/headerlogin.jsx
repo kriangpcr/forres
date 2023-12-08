@@ -21,15 +21,15 @@ function App() {
 
     return (
         <>
-            <div className="header">
-                <div style={{marginLeft:"15%"}} className="logo-container">
-                    <a href="/"><img
-                        src="../src/assets/logo.png"
-                        className="logo"
-                    /></a>
+            
+            <div class="container">
+                <a className="" href="/"><img className="icon" src="../src/assets/logo.png" /></a>
+                <div class="mybutton2">
 
+                    <button className="booknow" onClick={showbook}>
+                    SIGN IN
+                    </button>
                 </div>
-                <button className="book" onClick={showbook}>SIGN IN </button>
             </div>
             {booking && (<div className="modal">
                 <div onClick={closeall} className="overlay"></div>
@@ -57,9 +57,9 @@ function App() {
                             <input className="onecul" type="text" />
                         </div>
                         
-                        <div><div style={{ color: "#FFDE66", textAlign: "start" }}>Firstname&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Lastname</div>
-                            <input style={{ marginRight: "10px" }} type="text" />
-                            <input style={{ marginLeft: "10px" }} type="text" />
+                        <div ><div style={{ color: "#FFDE66", textAlign: "start" }}>Firstname&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Lastname</div>
+                            <input style={{ marginRight: "10px",width :"45%" }} type="text" />
+                            <input style={{ marginLeft: "10px",width :"45%" }} type="text" />
                         </div>
                         <div style={{ color: "#FFDE66", textAlign: "start" }}>password</div>
                         <div className="onecul">

@@ -6,7 +6,7 @@ export default function App() {
       <Header />
       <div>
 
-        <div className='container'>
+        <div className='container1'>
           <div className='alluser'>
             <p className='letter'>ALL USER</p>
             <p className='bignum'>1,000</p>

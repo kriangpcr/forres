@@ -12,20 +12,17 @@ function App() {
 
     return (
         <>
-            <div className="header">
-                <div style={{marginLeft:"27%"}} className="logo-container">
-                    <a href="/"><img
-                        src="../src/assets/logo.png"
-                        className="logo"
-                    /></a>
-
-                </div>
-                <button className="user">User </button>
-                <a href="/admin/dashboard"><button className="book" >DASHBOARD </button></a>
-                
-            </div>
             
+            <div class="container">
+                <a className="" href="/"><img className="icon" src="../src/assets/logo.png" /></a>
+                <div class="mybutton2">
 
+                    <a href="/admin/dashboard"><button className="booknow" onClick={showbook}>
+                    DASHBOARD
+                    </button></a>
+                    <a className="name" href="/">Username</a>
+                </div>
+            </div>
         </>
     );
 }
