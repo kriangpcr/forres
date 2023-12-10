@@ -1,10 +1,21 @@
 import Header from '../mainpage/headeradmin'
 import './admin.css'
+import React from "react";
+import { Chart as ChartJS, defaults } from "chart.js/auto";
+import { Bar, Doughnut, Line } from "react-chartjs-2";
+import sourceData from "./data/sourceData.json";
+import courseData from "./data/courseData.json";
+defaults.maintainAspectRatio = false;
+defaults.responsive = true;
+defaults.plugins.title.display = true;
+defaults.plugins.title.align = "start";
+defaults.plugins.title.font.size = 20;
+defaults.plugins.title.color = "black";
 export default function App() {
   return (
     <>
       <Header />
-      <div>
+      <div className='bigcon'>
 
         <div className='container1'>
           <div className='alluser'>
@@ -14,10 +25,30 @@ export default function App() {
             <p className='bignum'>25</p>
           </div>
           <div className='allincome'>
-            <div>
-              <p className='letter'>TOTAL INCOME</p>
-              <p className='letter'>286,233,400</p>
-            </div>
+          <div style={{width:"95%"}} className="dataCard customerCard">
+          <Bar
+            data={{
+              labels: sourceData.map((data) => data.label),
+              datasets: [
+                {
+                  label: "premium",
+                  data: sourceData.map((data) => data.value),
+                  backgroundColor: [
+                    '#845E00',
+                  ],
+                  borderRadius: 5,
+                }
+              ],
+            }}
+            options={{
+              plugins: {
+                title: {
+                  text: sourceData.map((data) => data.value*data.price).reduce((acc, amount) => acc + amount).toLocaleString(),
+                },
+              },
+            }}
+          />
+        </div>
           </div>
         </div>
 

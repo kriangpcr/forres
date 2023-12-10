@@ -14,12 +14,16 @@ import Admin from './components/admin/admin.jsx'
 import Staff from './components/staff/staff.jsx'
 import Menu from './components/staff/menu.jsx'
 import Dashboard from './components/admin/dashboard.jsx'
-
-export default function App() {
+import Profile from './components/profile/App.jsx'
+import Balance from './components/profile/Pages/balance.jsx'
+import Editpage from './components/profile/Pages/editPage.jsx'
+import History from './components/profile/Pages/history.jsx'
+export default function App(para) {
+  
   return (
     <BrowserRouter>
       <Routes>
-          <Route index element={<Main />} />
+          <Route path="/" element={<Main />} />
           <Route path="/booking" element={<Booking />} />
           <Route path="/premium" element={<Premium />} />
           <Route path="/alaska" element={<Alaska />} />
@@ -31,13 +35,15 @@ export default function App() {
           <Route path="/staff" element={<Staff />} />
           <Route path="/staff/menu" element={<Menu />} />
           <Route path="/admin/dashboard" element={<Dashboard />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/profile/balance" element={<Balance />} />
+          <Route path="/profile/editpage" element={<Editpage />} />
+          <Route path="/profile/history" element={<History />} />
       </Routes>
     </BrowserRouter>
   );
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
     <App />
-  </React.StrictMode>,
 ) 

@@ -1,4 +1,4 @@
-input[type=button], input[type=submit], input[type=reset]{
+.reserve input[type=button], input[type=submit], input[type=reset]{
 	border: 1px solid #FFDE66;
 	height: 40px;
 	width: 140px;
@@ -40,12 +40,19 @@ input[type=button], input[type=submit], input[type=reset]{
     .stage{
         height: 100px;
     }
-    td{
+    .reserve td{
         padding: 20px;
     }
     .kitchen{
         height: 500px   ;
     }
 }
+.avaichair{
+    color: #FFDE66;
+    font-size: 20px;
+    margin: 20px;
+}
 
-
+.alltable img{
+    cursor: pointer;
+}

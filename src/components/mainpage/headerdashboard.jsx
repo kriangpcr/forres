@@ -18,7 +18,7 @@ function App() {
                 <div class="mybutton2">
 
                     
-                    <a className="name" href="/">DASHBOARD</a>
+                    <a className="name1" href="/admin">DASHBOARD</a>
                 </div>
             </div>
         </>

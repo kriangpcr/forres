@@ -16,9 +16,7 @@ function App() {
             <div class="container">
                 <a className="" href="/staff"><img className="icon" src="../src/assets/logo.png" /></a>
                 <div class="mybutton2">
-
-                    
-                    <a className="name" href="/">Staff</a>
+                    <a className="name1" href="/profile">Staff</a>
                 </div>
             </div>
         </>

@@ -21,7 +21,7 @@ function App() {
                     <button className="booknow" onClick={showbook}>
                         BOOK
                     </button>
-                    <a className="name" href="/">Username</a>
+                    <a className="name1" href="/profile">Username</a>
                 </div>
             </div>
 

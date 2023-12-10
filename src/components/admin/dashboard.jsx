@@ -17,8 +17,7 @@ export default function App() {
   return (
     <>
       <Header />
-
-      <div className="App">
+      <div className='charts'><div className="App">
         <div className="dataCard revenueCard">
           <Line
             data={{
@@ -165,7 +164,8 @@ export default function App() {
           />
         </div>
       </div>
-
+</div>
+      
       <div className='bottom'>
         <div className='bottom_item'>
           Premium <span className='totalsell'>32,123,400</span>

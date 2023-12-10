@@ -20,7 +20,7 @@ function App() {
                     <a href="/admin/dashboard"><button className="booknow" onClick={showbook}>
                     DASHBOARD
                     </button></a>
-                    <a className="name" href="/">Username</a>
+                    <a className="name1" href="/profile">Username</a>
                 </div>
             </div>
         </>

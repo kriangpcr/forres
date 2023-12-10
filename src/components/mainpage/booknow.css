@@ -57,6 +57,7 @@ body.active-modal {
 	width: 140px;
 	background-color: black;
 	color: #FFDE66;
+    cursor: pointer;
 }
 .mainpic{
     width: 100%;
