@@ -1,8 +1,4 @@
-### README for Forres Frontend
-
----
-
-#### **Forres - Frontend**  
+### **Forres - Frontend**  
 Forres is a dining reservation app with features for booking, menu browsing, and profile management.
 
 ---
